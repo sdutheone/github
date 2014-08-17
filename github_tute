@@ -1,4 +1,4 @@
-同步repository
+同步repository到本地
 
 git remote -v
 git remote add upstream //repository url
@@ -6,3 +6,10 @@ git remote -v
 git fetch upstream
 git checkout master
 git merge upstream/master
+
+
+本地添加到repository
+
+git add .
+git commit -m 'message string'
+git push
