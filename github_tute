@@ -13,3 +13,10 @@ git merge upstream/master
 git add .
 git commit -m 'message string'
 git push
+
+删除后添加到repository
+
+rm ...
+git add --all
+git commit -m 'delete'
+git push
